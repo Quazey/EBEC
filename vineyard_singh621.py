@@ -1,10 +1,13 @@
 """
 Author: Jagroop Singh, singh621@purdue.edu
-Assignment: m.n - Assignment Name
+Assignment: m.n - Vineyard
 Date: 09/13/2021
 
 Description:
-    Describe your program here.
+    This program will as the user to input the amount of space between
+    grapevines, the length of the rows, and the width of the end-post assembly.
+    Using these quantities, it will calculated the number of grapevines avalible
+    to be in the designated amount of space.
 
 Contributors:
     Name, login@purdue.edu [repeat for each]
