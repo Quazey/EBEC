@@ -34,19 +34,19 @@ def main():
     package = int(input('How many packages will be purchased: '))
     if (package < 0): #checks to see if negative
             print('  Invalid Input!')
-    elif (package >= 100): #checks is number of packages is less than 100
+    elif (package >= 100): #checks is number of packages is less than 100,50,25,5
         cost = (1-.45)*price*package
         print('  45% discount applied.')
         print(f'  The total price for purchasing {package} packages is ${cost:,.2f}.')
-    elif (package >= 50): #checks is number of packages is less than 50
+    elif (package >= 50): 
         cost = (1-.3)*price*package
         print('  30% discount applied.')
         print(f'  The total price for purchasing {package} packages is ${cost:,.2f}.')
-    elif (package >= 25): #checks is number of packages is less than 25
+    elif (package >= 25): 
         cost = (1-.2)*price*package
         print('  20% discount applied.')
         print(f'  The total price for purchasing {package} packages is ${cost:,.2f}.')
-    elif (package >= 5): #checks is number of packages is less than 5
+    elif (package >= 5): 
         cost = (1-.1)*price*package
         print('  10% discount applied.')
         print(f'  The total price for purchasing {package} packages is ${cost:,.2f}.')
