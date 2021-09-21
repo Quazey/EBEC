@@ -29,20 +29,19 @@ Academic Integrity Statement:
 
 
 def main():
-#inputs
-    temp = float(input('Enter the temperature in °C as 5, 10, or 15: '))
-    velocity = float(input('Enter the velocity of water in the pipe: '))
-    diameter = float(input("Enter the pipe's diameter: "))
-#viscosity assigned based on temp
+
+    temp = float(input('Enter the temperature in °C as 5, 10, or 15: ')) #ask for temperature input
+    velocity = float(input('Enter the velocity of water in the pipe: ')) #ask for velocity input
+    diameter = float(input("Enter the pipe's diameter: ")) #ask for diameter input
+#viscosity assigned based on temp through if elseif statement
     if temp == 5:
         viscosity = 1.49*10**-6
     elif temp == 10:
         viscosity = 1.31*10**-6
     elif temp == 15:
         viscosity = 1.15*10**-6
-
     renum = (velocity * diameter) / viscosity #reynolds number calc
-    print(f'At {temp}°C, the Reynolds number for flow at {velocity} m/s in a {diameter} m diameter pipe \nis {renum: .2e}.')
-
+    print(f'At {temp}°C, the Reynolds number for flow at {velocity} m/s in a {diameter} m diameter pipe is {renum: .2e}.')
+#print Statement
 if __name__ == '__main__':
     main()
