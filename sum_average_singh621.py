@@ -36,7 +36,7 @@ def main():
         sum = sum + value #summing
         value = float(input('Enter a non-negative number (negative to quit): '))
     if sum == 0 and value < 0 : #invalid input of first number
-        print("  You didn't enter any numbers")
+        print("  You didn't enter any numbers.")
     else: #standard print statments
         print(f'  You entered {count-1} numbers.')
         print(f'  Their sum is {sum:.3f} and their average is {(sum/(count-1)):.3f}.')
