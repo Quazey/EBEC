@@ -4,10 +4,9 @@ Assignment: m.n - Arrows
 Date: 09/27/2021
 
 Description:
-    This program will have the user enter the number of cookies they would like
-    to make make a ratio to 48 cokkies since we know ingredient amounts for 48.
-    The the amounts will be multiplied by the ratio and retured in
-    a print statement.
+   
+    This program will ask the user for a number and return that number of Arrows
+    in a row coloum incemented format.
 
 Contributors:
     Name, login@purdue.edu [repeat for each]
@@ -32,13 +31,12 @@ Academic Integrity Statement:
 
 def main():
 
-    arrows = int(input('How many arrows should I draw? '))
-    for i in range(arrows):
+    arrows = int(input('How many arrows should I draw? ')) #asks user for number of arrows
+    for i in range(arrows): #outside for loop for rows
         print('<', end = "")
-        for j in range(i):
-            print('-',end = "")
+        for j in range(i): #inner for loop for columns
+            print('-',end = "") #varies the number of dashes for the arroe
         print('>')
-
 
 if __name__ == '__main__':
     main()
