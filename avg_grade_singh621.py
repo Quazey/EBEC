@@ -46,7 +46,7 @@ def main(): #main
 def get_valid_score():
     score = float(input('Enter a score: ')) #asking user in enter score
     while score < 0 or score > 100: #setting bounds
-        print('  Invalid Input. Please try again') #asking for valid input
+        print('  Invalid Input. Please try again.') #asking for valid input
         score = float(input('Enter a score: '))
     return score
 
