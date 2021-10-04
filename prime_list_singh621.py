@@ -1,12 +1,11 @@
 """
 Author: Jagroop Singh, singh621@purdue.edu
-Assignment: m.n - Prime Numbers
+Assignment: m.n - Prime List
 Date: 10/04/2021
 
 Description:
-    This program will create a contain a bolean function that will return true
-    or false if a given argument is a prime or normal number. It will do this
-    until user quits the program.
+    This program will print out a list of prime numbers where the 
+    user enters a limit  and the numbers will be evaluated in is prime function till the limit.
 
 Contributors:
     Name, login@purdue.edu [repeat for each]
