@@ -1,6 +1,6 @@
 """
 Author: Jagroop Singh, singh621@purdue.edu
-Assignment: m.n - Maximun
+Assignment: m.n - Maximum
 Date: 10/04/2021
 
 Description:
