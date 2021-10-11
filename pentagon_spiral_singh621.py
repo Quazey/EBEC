@@ -1,7 +1,7 @@
 
 """
 Author: Jagroop Singh, singh621@purdue.edu
-Assignment: m.n - Assignment Name
+Assignment: m.n - Pentagon Spiral
 Date: 10/11/2021
 
 Description:
