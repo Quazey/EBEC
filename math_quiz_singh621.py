@@ -31,8 +31,8 @@ Academic Integrity Statement:
 def main(): #main
 
     a, b = 2, 3
-    twodigit = random_num(a) #calling for 2 digit random numnber
-    threedigit = random_num(b) #calling for 3 digit randpm nimber
+    twodigit = random_number(a) #calling for 2 digit random numnber
+    threedigit = random_number(b) #calling for 3 digit randpm nimber
     print(f'{twodigit:5}') #setting up printing output
     print(f'+ {threedigit:3}')
     print('-----')
