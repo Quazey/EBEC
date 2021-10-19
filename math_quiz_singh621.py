@@ -1,6 +1,6 @@
 """
 Author: Jagroop Singh, singh621@purdue.edu
-Assignment: m.n - Maximum
+Assignment: m.n - Math Quiz
 Date: 10/19/2021
 
 Description:
@@ -43,7 +43,7 @@ def main(): #main
     else:
         print(f'Incorrect. The correct answer is {correctanswer}.') #prints if wrong
 
-def random_num(a):#random number function with digit num max a parameter
+def random_number(a):#random number function with digit num max a parameter
     import random #import module
     b = a-1 #min number of digits
     lower = 10**b #lower numberbound
