@@ -1,6 +1,6 @@
 """
 Author: Jagroop Singh, singh621@purdue.edu
-Assignment: m.n -  Number Counter
+Assignment: m.n -  Step Counter
 Date: 11/15/2021
 
 Description:
