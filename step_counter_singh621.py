@@ -34,7 +34,7 @@ def main(): #main
     fo.close() #close file
     for x in range(0,len(numlist)-1): #convert string to int
         numlist[x] = int(numlist[x])
-    print('The average steps taken each month were: ')
+    
     jansum = sum((numlist[0:31])) #finds sum
     janavg = jansum / 31 #find average
     febsum = sum((numlist[31:59])) #finds sum
@@ -60,7 +60,7 @@ def main(): #main
     decsum = sum((numlist[334:365])) #finds sum
     decavg = decsum / 31 #find average
     #print statments
-    print(f'   January : {janavg:.2f}\n  February : {febavg:.2f}\n     March : {maravg:.2f}\n     April : {apravg:.2f}\n       May : {mayavg:.2f}\n      June : {junavg:.2f}\n      July : {julavg:.2f}\n    August : {augavg:.2f}\n September : {sepavg:.2f}\n   October : {octavg:.2f}\n  November : {novavg:.2f}\n  December : {decavg:.2f}')
+    print('The average steps taken each month were:\n   January : {janavg:.2f}\n  February : {febavg:.2f}\n     March : {maravg:.2f}\n     April : {apravg:.2f}\n       May : {mayavg:.2f}\n      June : {junavg:.2f}\n      July : {julavg:.2f}\n    August : {augavg:.2f}\n September : {sepavg:.2f}\n   October : {octavg:.2f}\n  November : {novavg:.2f}\n  December : {decavg:.2f}')
 
 
 
