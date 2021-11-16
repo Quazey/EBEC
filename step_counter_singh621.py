@@ -60,18 +60,7 @@ def main(): #main
     decsum = sum((numlist[334:365])) #finds sum
     decavg = decsum / 31 #find average
     #print statments
-    print(f'   January : {janavg:.2f}')
-    print(f'  February : {febavg:.2f}')
-    print(f'     March : {maravg:.2f}')
-    print(f'     April : {apravg:.2f}')
-    print(f'       May : {mayavg:.2f}')
-    print(f'      June : {junavg:.2f}')
-    print(f'      July : {julavg:.2f}')
-    print(f'    August : {augavg:.2f}')
-    print(f' September : {sepavg:.2f}')
-    print(f'   October : {octavg:.2f}')
-    print(f'  November : {novavg:.2f}')
-    print(f'  December : {decavg:.2f}')
+    print(f'   January : {janavg:.2f}\n  February : {febavg:.2f}\n     March : {maravg:.2f}\n     April : {apravg:.2f}\n       May : {mayavg:.2f}\n      June : {junavg:.2f}\n      July : {julavg:.2f}\n    August : {augavg:.2f}\n September : {sepavg:.2f}\n   October : {octavg:.2f}\n  November : {novavg:.2f}\n  December : {decavg:.2f}')
 
 
 
