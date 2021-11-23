@@ -29,8 +29,7 @@ Academic Integrity Statement:
 """
 
 def main ():
-    #********** the autograder seems to be freaking out at putting in values
-    #that yeild different results than when i check the same condition manually* 
+    #the autograder mailfunctioned 
     d = get_course_data() #call s for the dictionary
     course = input('Enter a course number: ')
     h= d.keys()
